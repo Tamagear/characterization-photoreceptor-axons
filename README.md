@@ -5,6 +5,14 @@ Long before symptoms of neurodegeneration emerge, neurons accumulate subtle mole
 
 The aim of the master’s thesis is the automatic instance segmentation and quantification of 3D microscopy images of neuronal networks in Drosophila. In particular, the degradation upon light stimuli will be investigated and successive damage to regular structures should be quantitatively assessed by dedicated features that are to be developed. Additional parameters and their feasibility will be discussed with the collaboration partners at the Chair for Developmental Biology at RWTH Aachen. The functionality of the developed algorithms is to be confirmed both qualitatively and quantitatively in validation experiments and ideally should lead to a pipeline that is applicable for new data[1].
 
+### Getting started
+1. Install [Anaconda](https://www.anaconda.com/download) and [Visual Studio Code](https://code.visualstudio.com/).
+2. In the Anaconda Prompt, navigate to `/setup/environments/droso-axons`.
+3. Still in the Anaconda Prompt, use `conda env create -f environment.yml -y`
+4. Open the local repository in Visual Studio Code.
+5. Open `/src/notebooks/view-czi.ipynb` in Visual Studio Code.  Install the extensions that are proposed in the bottom right.
+6. Click on `≫ Run All`. For your kernel, select `Python Environments...` > `Droso-Axons`.
+
 ### Licenses
 * For the **code**, please consult `LICENSE`.
 * For the **data**, please consult `LICENSE-data`.
