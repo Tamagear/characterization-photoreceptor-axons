@@ -3,3 +3,4 @@ ipykernel
 matplotlib
 opencv-contrib-python
 czifile
+napari[all]
