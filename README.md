@@ -8,7 +8,7 @@ The aim of the master’s thesis is the automatic instance segmentation and quan
 ### Getting started
 1. Install [Anaconda](https://www.anaconda.com/download) and [Visual Studio Code](https://code.visualstudio.com/).
 2. In the Anaconda Prompt, navigate to `/setup/environments/droso-axons`.
-3. Still in the Anaconda Prompt, use `conda env create -f environment.yml -y`
+3. Still in the Anaconda Prompt, type `conda env create -f environment.yml -y`.
 4. Open the local repository in Visual Studio Code.
 5. Open `/src/notebooks/view-czi.ipynb` in Visual Studio Code.  Install the extensions that are proposed in the bottom right.
 6. Click on `≫ Run All`. For your kernel, select `Python Environments...` > `Droso-Axons`.
